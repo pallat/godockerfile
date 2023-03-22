@@ -3,7 +3,7 @@
 # Use debian for easier build utilities
 FROM golang:1.19-bullseye AS build-base
 
-ENV GOARCH=amd64
+# ENV GOARCH=amd64
 ARG BUILD_COMMIT
 ARG BUILD_TIME
 
